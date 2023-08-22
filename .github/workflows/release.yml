@@ -3,7 +3,7 @@
 name: build
 
 # git push --tags 执行时候进行编译
-on:
+on: workflow_dispatch
   push:
     tags:
       - v*

@@ -4,9 +4,6 @@ name: build
 
 # git push --tags 执行时候进行编译
 on: workflow_dispatch
-  push:
-    tags:
-      - v*
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
